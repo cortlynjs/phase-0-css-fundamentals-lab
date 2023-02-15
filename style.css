@@ -1,5 +1,67 @@
+/* Set the background color of the page */
 body {
-  width: 100%;
-  height: 100%;
+  background-color: #f2f2f2;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Center the header text and set its background color */
+header {
+  text-align: center;
+  background-color: white;
+}
+
+/* Center the featured image and caption */
+#featured-property {
+  text-align: center;
+}
+
+#featured-property figure {
   margin: 0;
+}
+
+#featured-property figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Style the navigation links */
+nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Center the navigation links */
+nav {
+  text-align: center;
+}
+
+/* Style the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make the details section horizontal */
+#details {
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+}
+
+/* Clean up the bottom divs */
+#details div, #details p {
+  background-color: grey;
+  text-align: center;
+  margin: 10px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#details p {
+  width: 100%;
 }
